@@ -50,3 +50,7 @@ After setting up the VMs and confirming network connectivity, log in to DC-1 to 
 <p>For the confirmation tab check the box that says Restart the destination sever automatically if required" and then click install. This will install Active Directory Domain services on to  server manager.On the left side bar you should see AD DS added as an option.</p>
 
 ![Screenshot 2024-12-05 at 4 31 24 PM](https://github.com/user-attachments/assets/5e664885-65ea-411d-8c6b-f71eb48524d4)
+
+<p> Next, we will the promote  the server as Domain Controller and Set a new forest as "mydomain.com". Do this by going to the server manager  and click on the flagged icon in the upper right region of the screen. Then click on the link that say promote this server to a domain controller.</p>
+
+![Screenshot 2024-12-05 at 4 48 58 PM](https://github.com/user-attachments/assets/3a608736-d2f6-4aaa-a30f-e4050c8b8734)
