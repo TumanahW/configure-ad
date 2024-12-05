@@ -35,8 +35,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 After setting up the VMs and confirming network connectivity, log in to DC-1 to begin configuring Active Directory.</p>
 <img width="1415" alt="Screenshot 2024-12-05 at 1 43 28 PM" src="https://github.com/user-attachments/assets/5d79e196-7dcf-4ca4-9614-a8b3d6d6db15">
-
+ </br>
 <p>Use Remote Desktop to login to each virtual machine. Once logged into Domain Controller 1 (DC-1) go to the Start menu and locate and click the Sever Manager.</p>
 <p>Once inside of Server Manager , you need to add Active Directory Services.Start by clicking> Add Roles and features. </p>
 
 <img width="1250" alt="Screenshot 2024-12-05 at 2 25 43 PM" src="https://github.com/user-attachments/assets/1ec9cb3c-f790-480c-85fe-b01be4afbcea">
+
+</br>
+<p>Follow the prompts and click "Next" until you reach Server Selection.Make sure that DC-1 is the virtual machine that is selected. On the side bar, you should have "Server Roles" selected and on the main screen you need to check the box that says " Active Directory Domain Services".
+</p>
+
+![Screenshot 2024-12-05 at 4 26 43 PM](https://github.com/user-attachments/assets/3d4900f3-10e1-45f3-9332-81baa40126a0)
+
+<p>For the confirmation tab check the box that says Restart the destination sever automatically if required" and then click install. This will install Active Directory Domain services on to  server manager.On the left side bar you should see AD DS added as an option.</p>
+
+![Screenshot 2024-12-05 at 4 31 24 PM](https://github.com/user-attachments/assets/5e664885-65ea-411d-8c6b-f71eb48524d4)
