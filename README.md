@@ -57,4 +57,9 @@ After setting up the VMs and confirming network connectivity, log in to DC-1 to 
 
 ![Screenshot 2024-12-05 at 4 50 43 PM](https://github.com/user-attachments/assets/fb45fe9b-94c0-464d-a83b-23b1192b55d4)
 
+<p> Click next to move forward  and in the Directory services restore mode passoword field  create a password. For any other fields that populate eave them as is and uncheck  "DNS Delegation". Complete the configuration and the system will automatically sign you out as Active Directory completes installation.</p>
+
+![Screenshot 2024-12-05 at 4 56 51 PM](https://github.com/user-attachments/assets/a4cee472-1a23-4890-8ed7-3b4d8c98ad1b)
+</br>
+<p>Next, we’ll attempt to log in to the Client-1 machine. If you use your regular credentials, the login will fail because no domain has been specified, as we just configured DC-1 as the domain controller. To successfully log in, you must include the domain in the format: mydomain.com\username, followed by the corresponding password.</p>
 
