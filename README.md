@@ -24,10 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+1. Set Up an Azure Account and Create a Virtual Network
+2. Deploy a Virtual Machine for the Domain Controller
+3. Install Active Directory Domain Services (ADDS)
+4. Configure DNS and Active Directory Settings
 
 <h2>Deployment and Configuration Steps</h2>
 
