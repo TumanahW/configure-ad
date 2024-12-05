@@ -54,3 +54,7 @@ After setting up the VMs and confirming network connectivity, log in to DC-1 to 
 <p> Next, we will the promote  the server as Domain Controller and Set a new forest as "mydomain.com". Do this by going to the server manager  and click on the flagged icon in the upper right region of the screen. Then click on the link that say promote this server to a domain controller.</p>
 
 ![Screenshot 2024-12-05 at 4 48 58 PM](https://github.com/user-attachments/assets/3a608736-d2f6-4aaa-a30f-e4050c8b8734)
+
+![Screenshot 2024-12-05 at 4 50 43 PM](https://github.com/user-attachments/assets/fb45fe9b-94c0-464d-a83b-23b1192b55d4)
+
+
