@@ -30,10 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 4. Configure DNS and Active Directory Settings
 
 <h2>Deployment and Configuration Steps</h2>
+<b>Step 1 </b>
+<p>To set up Active Directory, start by creating two virtual machines (VMs) in Azure. One VM will be a domain controller running Windows Server, named DC-1, and the other will be a client running Windows 10 Pro, named Client-1. Make sure both machines are on the same virtual network (VNet) to ensure they can communicate.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+After setting up the VMs and confirming network connectivity, log in to DC-1 to begin configuring Active Directory.</p>
