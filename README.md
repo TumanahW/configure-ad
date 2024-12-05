@@ -68,5 +68,6 @@ After setting up the VMs and confirming network connectivity, log in to DC-1 to 
 
 <p>On the DC-1 machine, the next step is to create a domain administrator user within the domain. This user will have the authority to manage all users and resources in the domain, making it a critical task. To begin, go to <b> Start > Windows Administrative Tools > Active Directory Users and Computers.</b> Once there, right-click on <b>mydomain.com </b> , select<b> New, and then choose Organizational Unit (OU)</b> to organize and manage domain objects.</p>
 
+![Screenshot 2024-12-05 at 5 50 43 PM](https://github.com/user-attachments/assets/b153ac8c-e00a-4f2a-a871-3acb4c8ccd80)
 
 
