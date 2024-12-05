@@ -62,4 +62,11 @@ After setting up the VMs and confirming network connectivity, log in to DC-1 to 
 ![Screenshot 2024-12-05 at 4 56 51 PM](https://github.com/user-attachments/assets/a4cee472-1a23-4890-8ed7-3b4d8c98ad1b)
 </br>
 <p>Next, we’ll attempt to log in to the Client-1 machine. If you use your regular credentials, the login will fail because no domain has been specified, as we just configured DC-1 as the domain controller. To successfully log in, you must include the domain in the format: mydomain.com\username, followed by the corresponding password.</p>
+<p>Once inside of  Client-1 machine, go to start and then Active Directory Users and Computers.</p>
+
+![Screenshot 2024-12-05 at 5 46 01 PM](https://github.com/user-attachments/assets/f11627c6-31d7-4eee-b1f7-0f3cf503589c)
+
+<p>On the DC-1 machine, the next step is to create a domain administrator user within the domain. This user will have the authority to manage all users and resources in the domain, making it a critical task. To begin, go to <b> Start > Windows Administrative Tools > Active Directory Users and Computers.</b> Once there, right-click on <b>mydomain.com </b> , select New, and then choose Organizational Unit (OU) to organize and manage domain objects.</p>
+
+
 
