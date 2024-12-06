@@ -65,4 +65,7 @@ After setting up the VMs and confirming network connectivity, log in to DC-1 to 
 
 ![Screenshot 2024-12-05 at 5 50 43 PM](https://github.com/user-attachments/assets/b153ac8c-e00a-4f2a-a871-3acb4c8ccd80)
 
+![Screenshot 2024-12-05 at 9 50 26 PM](https://github.com/user-attachments/assets/594cc37a-1a3d-4522-b5c7-b1b7a630d6c3)
+
+
 
