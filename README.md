@@ -73,7 +73,16 @@ After setting up the VMs and confirming network connectivity, log in to DC-1 to 
 
 ![Screenshot 2024-12-05 at 10 54 17 PM](https://github.com/user-attachments/assets/d90f0f3c-ea3e-4d2e-8d7d-3fe66b2e32ed)
 
+<p> Next, we will  change Client- 1's DNS Servers  so that they can point to the private IP Address of Domain Controller One (DC-1). To complete this  go to the Microsoft Azure Portal > Virtual Machines > Client-1> Network Settings > DNS Servers.</p>
 
+![Screenshot 2024-12-05 at 11 10 50 PM](https://github.com/user-attachments/assets/03d2fc4c-a937-4ffb-9ecb-63e766378ab0)
 
+<p> Now we will go back to Client 1 Virtual Machine  settings  and right click the start menu> system > rename this PC ( ADVANCED) on the right side> computer name tab > input my domain.com . </p>
 
+![Screenshot 2024-12-05 at 11 14 45 PM](https://github.com/user-attachments/assets/9256774e-1a81-4cad-9448-868787bb2ed5)
+
+![Screenshot 2024-12-05 at 11 19 57 PM](https://github.com/user-attachments/assets/bc8774b4-f6dc-43c8-9545-79371e8881aa)
+<p> Your computer will restart  and then next login to the Domain Controller and verify  that client-1 shows up in AD UC.</p>
+
+![Screenshot 2024-12-05 at 11 22 36 PM](https://github.com/user-attachments/assets/be67f3ee-00e5-44e7-91fe-b712a8da38c1)
 
