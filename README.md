@@ -61,11 +61,19 @@ After setting up the VMs and confirming network connectivity, log in to DC-1 to 
 
 ![Screenshot 2024-12-05 at 5 46 01 PM](https://github.com/user-attachments/assets/f11627c6-31d7-4eee-b1f7-0f3cf503589c)
 
-<p>On the DC-1 machine, the next step is to create a domain administrator user within the domain. This user will have the authority to manage all users and resources in the domain, making it a critical task. To begin, go to <b> Start > Windows Administrative Tools > Active Directory Users and Computers.</b> Once there, right-click on <b>mydomain.com </b> , select<b> New, and then choose Organizational Unit (OU)</b> to organize and manage domain objects.</p>
+<p>On the DC-1 machine, the next step is to create a domain administrator user within the domain. This user will have the authority to manage all users and resources in the domain, making it a critical task. To begin, go to <b> Start > Windows Administrative Tools > Active Directory Users and Computers.</b> Once there, right-click on <b>mydomain.com </b> , select<b> New, and then choose Organizational Unit (OU)</b> and name it _EMPLOYEES.</p>
 
 ![Screenshot 2024-12-05 at 5 50 43 PM](https://github.com/user-attachments/assets/b153ac8c-e00a-4f2a-a871-3acb4c8ccd80)
 
 ![Screenshot 2024-12-05 at 9 50 26 PM](https://github.com/user-attachments/assets/594cc37a-1a3d-4522-b5c7-b1b7a630d6c3)
+
+</br>
+<p> Create a second OU and name it _ADMIN. We will next create an admin user. Do this by right clicking _ADMINS > NEW > USER. Name the Admin user "Jane Doe" </p>
+<p>Next, We need to make Jane Doe  a Domain Admin. To give her priviliages, we <b> click on _ADMINS (OU) and then right click on Jane Doe > Properties > Member OF </b> then  type <b>Domain Admins </b> in the field  and click on Check Names.</p>
+
+![Screenshot 2024-12-05 at 10 54 17 PM](https://github.com/user-attachments/assets/d90f0f3c-ea3e-4d2e-8d7d-3fe66b2e32ed)
+
+
 
 
 
